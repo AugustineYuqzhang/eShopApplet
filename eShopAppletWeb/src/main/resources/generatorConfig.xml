@@ -83,7 +83,7 @@
             targetPackage:把自动生成的mapper放在哪个工程里面
             targetProject:哪个包下
         -->
-        <sqlMapGenerator targetPackage="com.hypertech.applet.eshop.mapper"
+        <sqlMapGenerator targetPackage="mybatis/mapper"
                          targetProject="src/main/resources">
             <!-- 在targetPackage的基础上，
             根据数据库的schema再生成一层package，

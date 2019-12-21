@@ -18,6 +18,7 @@
         <module>eShopAppletWeb</module>
         <module>eShopAppletCart</module>
         <module>eShopAppletOrder</module>
+        <module>eShopAppletAdmin</module>
     </modules>
 
     <dependencies>
