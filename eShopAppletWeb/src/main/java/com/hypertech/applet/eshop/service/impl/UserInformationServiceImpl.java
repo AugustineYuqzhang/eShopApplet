@@ -1,6 +1,6 @@
 package com.hypertech.applet.eshop.service.impl;
 
-import com.hypertech.applet.eshop.dao.UserInformationDAO;
+import com.hypertech.applet.eshop.mapper.UserInformationMapper;
 import com.hypertech.applet.eshop.service.IUserInformationService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 public class UserInformationServiceImpl implements IUserInformationService {
 
     @Autowired
-    UserInformationDAO userInformationDao;
+    UserInformationMapper userInformationDao;
 
     @Override
     public Object selectAll() {
